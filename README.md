@@ -19,7 +19,7 @@ Processes `events.json` with default settings (60s interval, 3 allowed misses).
 ## Test
 
 ```bash
-pytest tests/
+python -m pytest tests/
 ```
 
 ## Input Format
