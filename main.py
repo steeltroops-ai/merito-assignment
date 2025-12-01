@@ -175,5 +175,32 @@ def monitor_heartbeats(file_path: str, expected_interval: int, allowed_misses: i
 
 if __name__ == "__main__":
     # Run with default settings
-    alerts = monitor_heartbeats("events.json", 60, 3)
-    print(f"Alerts: {alerts}")
+    print("=" * 60)
+    print("HEARTBEAT MONITOR - Service Health Check")
+    print("=" * 60)
+    print(f"Configuration:")
+    print(f"  - Expected Interval: 60 seconds")
+    print(f"  - Allowed Misses: 3 consecutive")
+    print(f"  - Input File: events.json")
+    print("-" * 60)
+    
+    try:
+        alerts = monitor_heartbeats("events.json", 60, 3)
+        
+        if alerts:
+            print(f"\n⚠️  ALERTS DETECTED: {len(alerts)} service(s) missed heartbeats\n")
+            for i, alert in enumerate(alerts, 1):
+                print(f"  [{i}] Service: {alert['service']}")
+                print(f"      Alert Time: {alert['alert_at']}")
+                print()
+        else:
+            print("\n✓ All services healthy - no missed heartbeats detected\n")
+        
+        print("=" * 60)
+        
+    except FileNotFoundError as e:
+        print(f"\n❌ ERROR: {e}\n")
+        print("=" * 60)
+    except json.JSONDecodeError as e:
+        print(f"\n❌ ERROR: Invalid JSON - {e}\n")
+        print("=" * 60)
