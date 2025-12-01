@@ -1,0 +1,116 @@
+[
+    {
+        "service": "email",
+        "timestamp": "2025-08-04T10:00:00Z"
+    },
+    {
+        "service": "email",
+        "timestamp": "2025-08-04T10:01:00Z"
+    },
+    {
+        "service": "sms",
+        "timestamp": "2025-08-04T10:00:00Z"
+    },
+    {
+        "service": "email",
+        "timestamp": "2025-08-04T10:02:00Z"
+    },
+    {
+        "service": "push",
+        "timestamp": "2025-08-04T10:00:00Z"
+    },
+    {
+        "service": "push",
+        "timestamp": "2025-08-04T10:01:00Z"
+    },
+    {
+        "service": "push",
+        "timestamp": "2025-08-04T10:02:00Z"
+    },
+    {
+        "service": "push",
+        "timestamp": "2025-08-04T10:06:00Z"
+    },
+    {
+        "service": "email",
+        "timestamp": "2025-08-04T10:06:00Z"
+    },
+    {
+        "service": "sms",
+        "timestamp": "2025-08-04T10:03:00Z"
+    },
+    {
+        "service": "sms",
+        "timestamp": "2025-08-04T10:02:00Z"
+    },
+    {
+        "service": "email"
+    },
+    {
+        "service": "sms",
+        "timestamp": "not-a-real-timestamp"
+    },
+    {
+        "timestamp": "2025-08-04T10:04:00Z"
+    },
+    {
+        "service": "sms",
+        "timestamp": "2025-08-04T10:04:00Z"
+    },
+    {
+        "service": "email",
+        "timestamp": "2025-08-04T10:07:00Z"
+    },
+    {
+        "service": "email",
+        "timestamp": "2025-08-04T10:10:00Z"
+    },
+    {
+        "service": "email",
+        "timestamp": "2025-08-04T10:13:00Z"
+    },
+    {
+        "service": "email",
+        "timestamp": "2025-08-04T10:16:00Z"
+    },
+    {
+        "service": "sms",
+        "timestamp": "2025-08-04T10:06:00Z"
+    },
+    {
+        "service": "sms",
+        "timestamp": "2025-08-04T10:07:00Z"
+    },
+    {
+        "service": "sms",
+        "timestamp": "2025-08-04T10:08:00Z"
+    },
+    {
+        "service": "sms",
+        "timestamp": "2025-08-04T10:12:00Z"
+    },
+    {
+        "service": "sms",
+        "timestamp": "2025-08-04T10:16:00Z"
+    },
+    {
+        "service": "push",
+        "timestamp": "2025-08-04T10:12:00Z"
+    },
+    {
+        "service": "push",
+        "timestamp": "2025-08-04T10:13:00Z"
+    },
+    {
+        "service": "push",
+        "timestamp": "2025-08-04T10:14:00Z"
+    },
+    {
+        "service": "push",
+        "timestamp": "2025-08-04T10:20:00Z"
+    },
+    {
+        "service": "email",
+        "timestamp": "2025-08-04T10:22:00Z"
+    }
+]
